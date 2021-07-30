@@ -131,6 +131,10 @@ main {
 	margin: auto;
 }
 
+#BackgroundMusic {
+	display: none;
+}
+
 #AboutMe {
 	margin-top: 200px;
 	color: gray;
