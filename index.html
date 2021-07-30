@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Morteza Ghanbari First Website">
+        <meta name="author" content="Morteza Ghanbari">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My First Website Re-design</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- to be added later: 
+        	<base href="https://www.w3schools.com/" target="_blank"> 
+        -->
+    </head>
+
+    <body>
+        <header>
+            <h1 id="HeaderText">Morteza Ghanbari</h1>
+        </header>
+            
+        <nav id="navbar">
+            <a href="#HomePage" id="HomeTab" class="simple-tab active">Home</a>
+            <a href="#Education" id="EducationTab" class="simple-tab">Education</a>
+
+            <ul id="FrontEndSkillsTab" class="dropdown-tab">
+	            <li class="tab-title"><a href="#FrontEndSkillsPage">Front-end Skills</a></li>
+	            <li class="dropdown-content"><a href="htmlPage">HTML</a></li>
+	            <li class="dropdown-content"><a href="cssPage">CSS</a></li>
+	            <li class="dropdown-content"><a href="javaScriptPage">JavaScript</a></li>
+	            <li class="dropdown-content"><a href="reactPage">React js</a></li>
+	            <li class="dropdown-content"><a href="ColorTheory">Color Theory</a></li>
+            </ul>
+
+            <ul id="BackEndSkillsTab" class="dropdown-tab">
+	            <li class="tab-title"><a href="BackEndSkillsPage">Back-end Skills</a></li>
+	            <li class="dropdown-content"><a href="PhpPage">PHP</a></li>
+	            <li class="dropdown-content"><a href="jQueryPage">jQuery</a></li>
+	            <li class="dropdown-content"><a href="cppPage">C++</a></li>
+	            <li class="dropdown-content"><a href="PythonPage">Python</a></li>
+            </ul>
+
+            <a href="#Contact" id="ContactTab" class="simple-tab">Contact</a>
+            
+            <form id="SearchField" target="_self">
+	        	<input type="search" id="SearchBox"
+	        	name="SearchBox" placeholder="search this webpage" autocomplete="on" size="20"/>
+	        	<input type="image" id="SearchButton"
+	        	src="files/images/search_button.png" alt="search button" width="30" height="30"/>
+	        </form>
+        </nav>
+
+        <main>
+	        <section id="AboutMe">
+	            <h3>About me</h3>
+	            <p>If you're looking to get a start on learning the new, fun, and profitable skill of web development, then this course is for you. Instead of teaching tedious theory on how to code a website, you'll learn practical knowledge on how to do it. The best way to learn is by doing, and that's why you'll actually make a complete website from scratch. You'll learn two different methods, by writing the code from scratch, and using Dreamweaver, a tool that every web developer should have.</p>
+	        </section>
+
+	        <section id="Articles"  class="flex-container">
+		        <article id="Education" class="MainArticle">
+		            <h3>Education</h3>
+		            <p>Now I'm a psychology college student at Allameh Tabatabaei University of Tehran (ATU) and trying to learn front-end web development.</p>
+		        </article>
+
+		        <article id="Skills" class="MainArticle">
+		            <h3>Skills</h3>
+		            <ul>
+		                <li>HTML</li>
+		                <li>CSS</li>
+		                <li>Java Script</li>
+		            </ul>
+		        </article>
+
+		        <article id="Contact" class="MainArticle">
+		            <h3>Contact Me</h3>
+		            <p>+98 911 593 7543</p>
+		        </article>
+	        </section>
+
+	        <iframe id="YoutubeFrame" width="480" height="270"
+	        	src="https://www.youtube.com/watch?v=F3ztn4H6Ftg">
+	        </iframe>
+
+	        <br>
+
+	        <audio controls>
+	        	<source src="files/audios/Ennio Morricone - Marco Polo Titles.mp3" type="audio/mpeg"/>
+	        	Your browser does not support this audio format.
+	        </audio>
+        </main>
+
+        <footer>
+        	In order to contact me: <a href="mailto:mortezaghanbari1997@gmail.com" title="send email">mortezaghanbari1997@gmail.com</a>
+        </footer>
+
+        <!-- Load external JavaScript
+			<script src="fileName.js">
+        -->
+    </body>
+</html>
