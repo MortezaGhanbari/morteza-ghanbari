@@ -216,4 +216,8 @@ footer {
 		align-items: stretch;
 		width: 100%;
 	}
+
+	#SearchField {
+		display: block;
+	}
 }
