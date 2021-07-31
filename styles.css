@@ -178,6 +178,11 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+
+	#navbar .simple-tab, #navbar .dropdown-tab {
+		min-width: 20vw;
+	}
+
 	#SearchField {
 		display: none;
 	}
