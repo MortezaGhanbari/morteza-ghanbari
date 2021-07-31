@@ -147,7 +147,7 @@ main {
 }
 
 .MainArticle {
-	background-color: white;
+	background-color: #ddd;
 	float: left;
 	width: 32.33%;
 	min-height: 200px;
