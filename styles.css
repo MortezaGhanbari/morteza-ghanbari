@@ -181,6 +181,7 @@ footer {
 
 	#navbar .simple-tab, #navbar .dropdown-tab {
 		min-width: 20vw;
+		font-size: 0.6em;
 	}
 
 	#SearchField {
