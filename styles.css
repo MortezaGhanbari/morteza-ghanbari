@@ -162,6 +162,7 @@ main {
 main ul {
 	list-style-position: inside;
 	text-align: left;
+	padding-right: 15px;
 }
 
 footer {
