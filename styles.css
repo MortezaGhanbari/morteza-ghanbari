@@ -170,7 +170,7 @@ main {
 }
 
 #Contact p {
-	padding-left: 10%;
+	padding-left: 10px;
 	word-wrap: break-word;
 	line-height: 25px;
 }
