@@ -154,6 +154,10 @@ main {
 	text-align: center;
 }
 
+.MainArticle:hover {
+	background-color: #eee;
+}
+
 #Education ul, #Skills ul {
 	list-style-position: inside;
 	padding-left: 10%;
@@ -168,6 +172,7 @@ main {
 #Contact p {
 	padding-left: 10%;
 	word-wrap: break-word;
+	line-height: 25px;
 }
 
 footer {
