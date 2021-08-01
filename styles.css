@@ -103,7 +103,7 @@ header {
 	box-sizing: border-box;
 	float: right;
 	right: 0px;
-	margin: 10px -30px 10px 0;
+	margin: 10px 0px 10px 0;
 
 }
 
@@ -154,13 +154,19 @@ main {
 	text-align: center;
 }
 
-#Education ul, #Skills ul{
+#Education ul, #Skills ul {
 	list-style-position: inside;
-	padding-left: 0;
+	padding-left: 10%;
 	text-align: left;
+	line-height: 25px;
 }
 
-#Contact {
+#Skills h4 {
+	padding-left: 5%;
+}
+
+#Contact p {
+	padding-left: 10%;
 	word-wrap: break-word;
 }
 
@@ -173,7 +179,7 @@ footer {
 	font-size: 2.8vw;
 	text-align: center;
 	clear: left;
-	padding: 20px 50px;
+	padding: 15px 50px;
 	border-top: 1px solid #202020;
 }
 
@@ -227,6 +233,18 @@ footer {
 		width: 150px;
 	}
 
+	#Education, #Skills {
+		margin-right: 15px;
+	}
+
+	#Education ul, #Contact p {
+		padding-top: 50px;
+	}
+
+	#Skills ul {
+		padding-left: 5%;
+	}
+
 	.flex-container {
 		display: flex;
 		align-items: stretch;
@@ -235,15 +253,13 @@ footer {
 
 	footer {
 		font-size: 100%;
+		padding: 0;
+		line-height: 90px;
 	}
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
 	/*show search box on larger screen*/
-	#navbar .simple-tab, #navbar .dropdown-tab {
-		font-size: 100%;
-	}
-
 	#SearchField {
 		display: block;
 	}
