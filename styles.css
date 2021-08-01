@@ -160,7 +160,7 @@ main {
 
 #Education ul, #Skills ul {
 	list-style-position: inside;
-	padding-left: 10%;
+	padding-left: 10px;
 	text-align: left;
 	line-height: 25px;
 }
