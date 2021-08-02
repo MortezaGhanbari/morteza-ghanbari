@@ -143,19 +143,19 @@ main {
 }
 
 .MainArticle {
-	background-color: #ddd;
+	background-color: #eee;
 	width: 100%;
 	margin: 15px 0;
 	padding: 5px 25px 15px 25px;
 	float: left;
 }
 
-.MainArticle h3 {
-	text-align: center;
+.MainArticle:hover {
+	background-color: #fff;
 }
 
-.MainArticle:hover {
-	background-color: #eee;
+.MainArticle h3 {
+	text-align: center;
 }
 
 #Education ul, #Skills ul {
@@ -163,6 +163,10 @@ main {
 	padding-left: 10px;
 	text-align: left;
 	line-height: 25px;
+}
+
+#Education ul {
+	list-style-type: none;
 }
 
 #Skills h4 {
