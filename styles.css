@@ -163,6 +163,10 @@ main {
 	background-color: #eee;
 }
 
+#Education ul li {
+	list-style-type: none;
+}
+
 #Education ul, #Skills ul {
 	list-style-position: inside;
 	padding-left: 10px;
