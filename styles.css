@@ -114,6 +114,8 @@ header {
 	height: 30px;
 	padding-left: 5px;
 	border-radius: 4px;
+	width: 150px;
+	transition: width 1s;
 }
 
 #SearchButton {
@@ -137,25 +139,26 @@ main {
 }
 
 #AboutMe {
-	margin-top: 180px;
+	clear: left;
+	margin-top: 175px;
 	margin-bottom: 15px;
 	color: gray;
 }
 
 .MainArticle {
-	background-color: #eee;
+	background-color: #ddd;
 	width: 100%;
 	margin: 15px 0;
 	padding: 5px 25px 15px 25px;
 	float: left;
 }
 
-.MainArticle:hover {
-	background-color: #fff;
-}
-
 .MainArticle h3 {
 	text-align: center;
+}
+
+.MainArticle:hover {
+	background-color: #eee;
 }
 
 #Education ul, #Skills ul {
@@ -163,10 +166,6 @@ main {
 	padding-left: 10px;
 	text-align: left;
 	line-height: 25px;
-}
-
-#Education ul {
-	list-style-type: none;
 }
 
 #Skills h4 {
@@ -267,9 +266,13 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1080px) {
 	/*show search box on larger screen*/
 	#SearchField {
 		display: block;
+	}
+
+	#SearchBox:focus {
+		width: 200px;
 	}
 }
