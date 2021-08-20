@@ -197,6 +197,10 @@ main {
 	text-align: center;
 }
 
+#resume-download:hover {
+	background-color: #f90;
+}
+
 footer {
 	height: 90px;
 	line-height: 30px;
