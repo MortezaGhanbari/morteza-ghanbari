@@ -256,10 +256,6 @@ footer {
 		width: 150px;
 	}
 
-	#Education, #Skills {
-		margin-right: 15px;
-	}
-
 	#Education ul, #Contact p {
 		padding-top: 50px;
 	}
@@ -270,14 +266,19 @@ footer {
 
 	.flex-container {
 		display: flex;
+		justify-content: space-between;
 		align-items: stretch;
 		width: 100%;
 	}
 
+	#Education, #Skills, #Contact {
+		width: 33%;
+	}
+
   #resume-download {
-    margin-left: 33.33%;
-    margin-right: 33.33%;
-    max-width: 33%;
+    width: 33%;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
   }
 
 	footer {
